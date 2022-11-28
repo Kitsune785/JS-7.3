@@ -14,4 +14,17 @@ describe("Books names test suit", () => {
       "Гарри Поттер",
     ]);
   });
+  it('Plot names should be sorted in ascending order', () => {
+    expect(
+        sorting.sortByName([
+            'Приключения',
+            'Боевик',
+            'Приключения',
+        ]),
+    ).toEqual([
+        'Боевик',
+        'Приключения',
+        'Приключения',
+    ]);
+  })
 });

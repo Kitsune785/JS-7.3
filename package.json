@@ -1,0 +1,40 @@
+{
+  "name": "js-7.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**"
+    ],
+    "coverageThreshold": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100
+    }
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "jsaqa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kitsune785/JS-7.3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kitsune785/JS-7.3/issues"
+  },
+  "homepage": "https://github.com/Kitsune785/JS-7.3#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
